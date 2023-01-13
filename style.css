@@ -15,8 +15,8 @@
     gap: 4;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: 
-    "one one two three"
-    "two two three four";
+    "one one two "
+    "three four two";
 }
 .links{
     text-align: right;
@@ -24,4 +24,10 @@
 .first image img{
     height: 300px;
     width: 300px;
+}
+.one{
+    grid-area: one;
+    padding: 10px;
+    display: grid;
+
 }
