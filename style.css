@@ -21,3 +21,7 @@
 .links{
     text-align: right;
 }
+.first image img{
+    height: 300px;
+    width: 300px;
+}
